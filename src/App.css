@@ -156,3 +156,56 @@ h2 + .product-list {
     font-size: 12px;
   }
 }
+
+
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .navbar {
+    right: 1%;
+  }
+
+  .container-fluid {
+    margin-left: 2%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+
+  .product-list {
+    justify-content: space-around;
+    gap: 1.5rem;
+    margin: 1.5rem;
+  }
+
+  .product-card {
+    max-width: 220px;
+    padding: 1.25rem;
+  }
+
+  .product-card h3 {
+    font-size: 1.3rem;
+  }
+
+  .product-card p {
+    font-size: 1.1rem;
+  }
+
+  h2 {
+    font-size: 1.8rem;
+    margin-top: 2rem;
+  }
+
+  .footer {
+    padding: 1.5rem 0;
+  }
+
+  .footer p {
+    font-size: 0.9rem;
+  }
+
+  .footer-links a {
+    margin: 0 0.75rem;
+    font-size: 0.9rem;
+  }
+}

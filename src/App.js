@@ -48,6 +48,12 @@ const App = () => {
       title: 'Realme P1 Pro 5G',
       price: 'Just ₹16,999',
     },
+    {
+      id: 6,
+      image: 'https://cdn1.smartprix.com/rx-ibsJ2hNrF-w1200-h1200/bsJ2hNrF.jpg',
+      title: 'Realme P1 Pro 5G',
+      price: 'Just ₹16,999',
+    },
  
   ];
 
@@ -78,6 +84,12 @@ const App = () => {
     },
     {
       id: 5,
+      image: 'https://th.bing.com/th/id/OIP.IBsxle2wK9uhtTpAkBF_pwHaFF?rs=1&pid=ImgDetMain',
+      title: 'Children Traditional',
+      price: '₹499',
+    },
+    {
+      id: 6,
       image: 'https://th.bing.com/th/id/OIP.IBsxle2wK9uhtTpAkBF_pwHaFF?rs=1&pid=ImgDetMain',
       title: 'Children Traditional',
       price: '₹499',
