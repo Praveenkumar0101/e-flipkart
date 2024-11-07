@@ -134,6 +134,30 @@ h2 + .product-list {
   }
 }
 
+
+@media (min-width: 320px) and (max-width: 580px) {
+  .product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin: 15px;
+  }
+
+  .product-card {
+    flex: 1 1 38%; 
+    max-width: 150px;
+    padding: 10px;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 1.6rem;
+    margin-top: 1.5rem;
+  }
+}
+
+
 @media (max-width: 480px) {
   .product-card {
     width: 100%;
